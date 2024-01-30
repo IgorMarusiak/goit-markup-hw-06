@@ -147,13 +147,14 @@ ul {
   display: none;
   /* display: flex; */
   align-items: center;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .header-address-list {
-  /* display: flex; */
-
-  gap: 40px;
+  display: flex; 
+    gap: 12px;
+    flex-direction: column;
+  /* gap: 40px; */
 }
 .header-menu-btn {
   border: none;
@@ -601,7 +602,7 @@ ul {
   max-width: 100%;
   display: flex;
   gap: 48px;
-  flex-direction: column; */
+  flex-direction: column; 
 }
 .portfolio-item:not(:last-child) {
   
@@ -1208,6 +1209,7 @@ ul {
   }
   .header-address-list {
     display: flex;
+    flex-direction: row;
     gap: 40px;
   }
   .hero {
